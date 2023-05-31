@@ -1,0 +1,45 @@
+/* navigation */
+#navbar
+{
+  flex-direction: column;
+}
+#navbar ul li a
+{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+
+/* home section */
+#home 
+{
+    padding:3px 38px;
+
+}
+
+#back{
+    width: 100%;
+}
+
+#home::before
+{
+    height:500px;
+} 
+
+#home p
+{
+    font-size: 13px;
+}
+
+
+/* utility class */
+.h-primary
+{
+    font-size: 20px;
+}
+.btn
+{
+    font-size: 13px;
+    padding:4px 10px;
+}
